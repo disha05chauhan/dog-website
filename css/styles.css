@@ -1,0 +1,165 @@
+body{
+  font-family: 'Montserrat-Black', sans-serif;
+  text-align: center;
+}
+#title{
+  background-color:#E9A6A6;
+  text-align: left;
+
+}
+h1,h2,h3{
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+.container-fluid{
+padding:3% 15% 7%;
+}
+
+/* heading */
+.big-heading{
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: #fff;
+}
+.section-heading{
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height:5.5rem;
+}
+/*navigation bar */
+.navbar{
+  padding:0 0 4.5rem;
+
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+/* download buttons*/
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+/*title */
+.title-image{
+  width: 50%;
+  transform: rotate(25deg);
+  margin-left:20%;
+  position:absolute;
+}
+
+/*feature*/
+#features{
+  background-color: #fff;
+  position:relative;
+
+}
+.feature-title{
+  font-weight: bold;
+  color: #000;
+  font-size: 1.5rem;
+}
+.feature-fontawesome{
+color: #ef8172;
+padding-bottom: 1rem;
+
+}
+.feature-row{
+  width: 90%;
+
+  margin-left: 5%;
+/*  margin:10% auto;*/
+  color: #8f8f8f;
+}
+.feature-col{
+/*padding-right: 9%;
+padding-left: 9%;*/
+padding: 5% 9%;
+}
+
+.feature-fontawesome:hover{
+  color:#ff4c68;
+}
+/*testimonial section*/
+#testimonials{
+  padding: 7% 15%;
+
+  background-color:#E9A6A6;
+  color: #fff;
+}
+.testimonial-text{
+  font-size: 3.5rem;
+  line-height:5.5rem;
+    font-weight: bold;
+
+
+}
+.testimonial-img{
+  border-radius: 100%;
+  width: 10%;
+  margin:20px;
+}
+/*press*/
+#press{
+
+    background-color:#E9A6A6;
+    padding-bottom: 4%;
+}
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+ /* Pricing  */
+ #pricing{
+   padding: 100px;
+
+ }
+ .card-title{
+   font-weight: bold;
+   color: #000;
+   font-size: 1.5rem;
+ }
+ .pricing-column{
+   padding:3% 2%;
+ }
+ .price-text{
+   font-size: 3.5rem;
+   line-height:5.5rem;
+ }
+ /* cta */
+#cta{
+  background-color:#E9A6A6;
+
+  padding: 2% 20%;
+  font-family: 'Montserrat-Black', sans-serif;
+
+
+}
+
+/* footer */
+#footer{
+  background-color: #fff;
+
+  margin-top: 3%;
+}
+.fab{
+  color: grey;
+
+  margin: 1% 1%;
+
+}
+ @media(max-width:992px){
+   #title{
+     text-align: center;
+   }
+   .title-image{
+     position:static;
+     transform: rotate(0);
+     margin-left: auto;
+   }
+
+ }
